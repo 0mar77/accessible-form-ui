@@ -21,11 +21,6 @@ form {
 .input {
     padding: 5px;
     border-radius: 10px;
-    /* font-size: larger; */
-}
-
-#password-continer {
-    position:absolute;
 }
 
 img {
