@@ -73,18 +73,21 @@ img {
 .circle-background {
     height: 100px;
     width: 100px;
-    background-color: black;
-    border-radius: 65px;
-    color:aqua;
+    background: conic-gradient( black 0deg 200deg, rgb(158, 158, 158) 200deg 360deg);
+    border-radius: 67px;
     padding: 20px;
     margin: 50px 70px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #percentage {
-    position: relative;
-    left: 20px;
-    top: 28px;
-    font-size:xx-large;
+    color:black;
+    font-size: xx-large;
+    background-color: white;
+    padding: 40px 32px;
+    border-radius: 57px;
 }
 
 /* Completeness Title */
